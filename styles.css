@@ -55,3 +55,17 @@ li {
   padding: 36px;
   font-size: 20px;
 }
+
+/* Main text styling */
+
+.jumbotron {
+  font-weight: bolder;
+  font-size: 128px;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+.sub-jumbo {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 0;
+}
