@@ -68,6 +68,10 @@ main {
   margin-left: 100px;
 }
 
+p {
+  width: 80%;
+}
+
 .jumbotron {
   font-weight: bolder;
   font-size: 128px;
