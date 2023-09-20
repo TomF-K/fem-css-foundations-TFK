@@ -4,7 +4,7 @@
   --orange: #ff7b54;
   --white: #ffffff;
   --black: #000000;
-  --regular: "Inter", sans-serif;
+  --inter: Inter, sans-serif;
 }
 
 html {
@@ -17,9 +17,9 @@ html {
 }
 
 body {
-  background-color: var(--orange);
-  color: var(--white);
-  font-family: var(--regular);
+  background-color: var(--white);
+  color: var(--orange);
+  font-family: var(--inter);
 }
 
 /* Nav styling */
@@ -49,7 +49,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--orange);
 }
 
 ul {
@@ -69,6 +69,12 @@ li {
 }
 
 /* Main text styling */
+
+.speaker-img {
+  height: 162px;
+  width: 162px;
+  object-fit: cover;
+}
 
 main {
   margin-left: 2rem;
