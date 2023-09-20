@@ -1,20 +1,4 @@
-/* General styling */
-
-:root {
-  --orange: #ff7b54;
-  --white: #ffffff;
-  --black: #000000;
-  --inter: Inter, sans-serif;
-}
-
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+/* General Styling */
 
 body {
   background-color: var(--white);
