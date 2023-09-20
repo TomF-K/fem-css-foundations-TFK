@@ -145,10 +145,13 @@ button {
 
   main {
     margin-left: 100px;
+    text-wrap: balance;
   }
 
+  /* TODO: BALANCE TEXT TO MATCH FIGMA */
+
   p {
-    width: 80%;
+    /* width: 80%; */
   }
 
   .jumbotron {
@@ -166,8 +169,14 @@ button {
 
   /* button styling */
 
+  .button-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
   button {
     font-size: 32px;
+    font-weight: bolder;
     height: 100px;
     padding: 1rem 4rem;
     margin-top: 100px;
