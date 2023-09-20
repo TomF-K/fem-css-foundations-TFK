@@ -1,9 +1,9 @@
 /* General Styling */
 
 body {
-  background-color: var(--white);
-  color: var(--orange);
-  font-family: var(--inter);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  font-family: var(--font-primary);
 }
 
 /* Nav styling */

@@ -1,10 +1,10 @@
 /* General styling */
 
 :root {
-  --orange: #ff7b54;
-  --white: #ffffff;
-  --black: #000000;
-  --inter: Inter, sans-serif;
+  --color-primary: #ff7b54;
+  --color-secondary: #ffffff;
+  --color-tertiary: #000000;
+  --font-primary: "Inter", sans-serif;
 }
 
 html {
