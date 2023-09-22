@@ -139,14 +139,9 @@ button {
 
   main {
     margin-left: 100px;
-    text-wrap: balance;
   }
 
   /* TODO: BALANCE TEXT TO MATCH FIGMA */
-
-  p {
-    /* width: 80%; */
-  }
 
   .jumbotron {
     font-weight: bolder;

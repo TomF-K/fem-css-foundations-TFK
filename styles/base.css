@@ -21,7 +21,9 @@ a {
 }
 
 nav {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-self: end;
 }
 
 nav > ul {
@@ -39,6 +41,18 @@ header {
   display: grid;
   grid-template-columns: 1fr 3fr 34px;
   grid-template-rows: 1fr;
+  grid-template-areas: "logo nav shopping-cart";
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  padding: 0 60px;
+}
+
+header > a {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+header img {
+  grid-area: shopping-cart;
+  padding-top: 36px;
 }
