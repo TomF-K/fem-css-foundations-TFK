@@ -20,14 +20,19 @@ a {
   text-decoration: none;
 }
 
-.nav-links {
-  display: flex;
+nav {
+  display: inline-block;
 }
 
 nav > ul {
   list-style-type: none;
+  display: flex;
 }
+nav > ul li {
+  /* MARGIN INLINE END is more responsive for languages read right-left*/
 
+  margin-inline-end: 36px;
+}
 /* Header/Nav styling */
 
 header {
@@ -35,4 +40,5 @@ header {
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-evenly;
+  margin: 30px 60px;
 }
