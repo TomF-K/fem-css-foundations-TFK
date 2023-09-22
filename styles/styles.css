@@ -8,13 +8,6 @@ body {
 
 /* Nav styling */
 
-header {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
 .menu {
   color: var(--color-secondary);
 }
@@ -25,31 +18,8 @@ h1 {
   margin-left: 60px;
 }
 
-.nav-links {
-  display: flex;
-  margin-right: 60px;
-  flex-basis: 20%;
-}
-
 a {
-  text-decoration: none;
   color: var(--color-secondary);
-}
-
-ul {
-  list-style-type: none;
-  visibility: hidden;
-}
-
-li {
-  display: inline;
-  padding: 18px;
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.cart {
-  padding-left: 18px;
 }
 
 /* Main text styling */
@@ -111,35 +81,11 @@ button {
     justify-content: space-between;
   }
   /* TODO: make this fully disappear, fix h1 alignment */
-  .menu {
-    visibility: hidden;
-    height: 0;
-  }
 
   h1 {
     font-weight: bolder;
     font-size: 40px;
     margin-left: 60px;
-  }
-
-  .nav-links {
-    display: flex;
-    margin-right: 60px;
-  }
-
-  ul {
-    visibility: visible;
-  }
-
-  li {
-    display: inline;
-    padding: 18px;
-    font-size: 20px;
-    font-weight: lighter;
-  }
-
-  .cart {
-    padding-left: 18px;
   }
 
   /* Main text styling */

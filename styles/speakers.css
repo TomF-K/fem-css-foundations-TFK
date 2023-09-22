@@ -8,13 +8,6 @@ body {
 
 /* Nav styling */
 
-header {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
 .menu {
   color: var(--white);
 }
@@ -32,13 +25,7 @@ h1 {
 }
 
 a {
-  text-decoration: none;
   color: var(--orange);
-}
-
-ul {
-  list-style-type: none;
-  visibility: hidden;
 }
 
 li {
