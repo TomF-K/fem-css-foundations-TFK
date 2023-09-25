@@ -20,24 +20,24 @@ a {
   text-decoration: none;
 }
 
-nav {
+.nav {
   display: inline-flex;
   align-items: center;
   justify-self: end;
 }
 
-nav > ul {
+.nav__list {
   list-style-type: none;
   display: flex;
 }
-nav > ul li {
+.nav__list-item {
   /* MARGIN INLINE END is more responsive for languages read right-left*/
 
   margin-inline-end: 36px;
 }
 /* Header/Nav styling */
 
-header {
+.header {
   display: grid;
   grid-template-columns: 1fr 3fr 34px;
   grid-template-rows: 1fr;
@@ -47,12 +47,12 @@ header {
   padding: 0 60px;
 }
 
-header > a {
+.header__link {
   font-size: 40px;
   font-weight: bolder;
 }
 
-header img {
+.header img {
   grid-area: shopping-cart;
   padding-top: 36px;
 }
