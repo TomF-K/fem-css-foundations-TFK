@@ -1,3 +1,5 @@
+@import "./base.css";
+
 /* General Styling */
 
 body {
@@ -8,31 +10,16 @@ body {
 
 /* Nav styling */
 
+.header__link {
+  color: var(--color-primary);
+}
+
+nav a {
+  color: var(--color-primary);
+}
+
 .menu {
   color: var(--white);
-}
-
-h1 {
-  font-weight: bolder;
-  font-size: 20px;
-  margin-left: 60px;
-}
-
-.nav-links {
-  display: flex;
-  margin-right: 60px;
-  flex-basis: 20%;
-}
-
-a {
-  color: var(--orange);
-}
-
-li {
-  display: inline;
-  padding: 18px;
-  font-size: 20px;
-  font-weight: lighter;
 }
 
 .cart {
