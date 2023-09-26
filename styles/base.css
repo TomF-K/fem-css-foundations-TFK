@@ -59,7 +59,7 @@ p {
   font-weight: bolder;
 }
 
-.header img {
+ .shopping-cart-icon {
   grid-area: shopping-cart;
   padding-top: 36px;
 }
