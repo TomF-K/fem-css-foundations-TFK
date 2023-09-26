@@ -26,13 +26,26 @@ nav a {
   padding-left: 18px;
 }
 
-/* Main text styling */
+/* GRID AREA STYLING */
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  
+
+
 
 .speaker-img {
   height: 162px;
   width: 162px;
   object-fit: cover;
 }
+
 
 main {
   margin-left: 2rem;
