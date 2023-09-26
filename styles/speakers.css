@@ -42,6 +42,11 @@ nav a {
   height: 310px;
   width: 310px;
   object-fit: cover;
+  object-position: center;
+}
+
+.img__cropped {
+  object-position: 0px 20px;
 }
 
 
