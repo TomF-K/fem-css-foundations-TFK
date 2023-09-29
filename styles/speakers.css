@@ -32,9 +32,8 @@ nav a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 0px;
-  margin-left: 150px;
+  grid-column-gap: 200px;
+  grid-row-gap: 120px;
   }
 
 .speaker__container {
