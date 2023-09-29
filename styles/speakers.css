@@ -37,15 +37,14 @@ nav a {
   margin-left: 150px;
   }
   
-
-.speaker-img {
+.speaker__img {
   height: 310px;
   width: 310px;
   object-fit: cover;
   object-position: center;
 }
 
-.img__cropped {
+.speaker__img--top {
   object-position: 0px 20px;
 }
 

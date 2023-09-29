@@ -39,7 +39,6 @@ p {
 }
 .nav__list-item {
   /* MARGIN INLINE END is more responsive for languages read right-left*/
-
   margin-inline-end: 36px;
 }
 /* Header/Nav styling */
