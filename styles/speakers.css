@@ -101,66 +101,10 @@ button {
   border: 4px solid var(--white);
 }
 
-@media (min-width: 750px) {
-  /* Nav styling */
-
-  header {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-  /* TODO: make this fully disappear, fix h1 alignment */
-
-  .nav-links {
-    display: flex;
-    margin-right: 60px;
-  }
-
-  ul {
-    visibility: visible;
-  }
-
-  li {
-    display: inline;
-    padding: 18px;
-    font-size: 20px;
-    font-weight: lighter;
-  }
-
-  .cart {
-    padding-left: 18px;
-  }
-
-  /* Main text styling */
-
-  main {
-    margin-left: 150px;
-  }
-
-  /* TODO: BALANCE TEXT TO MATCH FIGMA */
-
-
-  /* button styling */
-
-  .button-container {
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-  button {
-    font-size: 32px;
-    font-weight: bolder;
-    height: 100px;
-    padding: 1rem 4rem;
-    margin-top: 100px;
-  }
-  .btn-img {
-    margin-left: 0.5rem;
-    height: 80%;
-  }
-
-  .contact-button {
-    margin-left: 20px;
+@media (max-width: 1000px) {
+  .grid-wrapper {
+    grid-template-columns: 1fr;
   }
 }
+  
+

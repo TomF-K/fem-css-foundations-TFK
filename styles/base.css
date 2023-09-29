@@ -76,4 +76,15 @@ p {
   outline: 2px solid var(--color-secondary);
 }
 
+@media (min-width: 1000px) {
+  /* main area styling */
+.main {
+  margin-left: 150px;
+}
+}
 
+@media (max-width: 1220px) {
+  .button {
+    font-size: 24px;
+  }
+}
