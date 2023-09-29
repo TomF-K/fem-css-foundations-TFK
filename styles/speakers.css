@@ -36,16 +36,19 @@ nav a {
   grid-row-gap: 0px;
   margin-left: 150px;
   }
+
+.speaker__container {
+  max-width: 460px;
+}
   
 .speaker__img {
   height: 310px;
   width: 310px;
   object-fit: cover;
-  object-position: center;
 }
 
 .speaker__img--top {
-  object-position: 0px 20px;
+  object-position: top;
 }
 
 .page__title {
@@ -71,7 +74,6 @@ nav a {
   color: var(--color-tertiary);
   font-weight: lighter;
   margin: 32px 0px 80px 0px;
-  width: 462px;
 }
 
 /* button styling */
